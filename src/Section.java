@@ -20,5 +20,8 @@ public class Section implements Element{
     }
     public void print(){
         System.out.println(this.sectionTitle);
+        for(Element i: content){
+            i.print();
+        }
     }
 }
