@@ -6,4 +6,7 @@ public class Paragraph implements Element{
     public void print(){
         System.out.println("Paragraph: "+text);
     }
+    public void setAlignStrategy(AlignStrategy a){
+        a.render(this,null);
+    }
 }
