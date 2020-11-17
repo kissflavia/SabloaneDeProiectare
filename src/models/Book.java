@@ -21,7 +21,7 @@ public class Book{
     }
 
     public void print() {
-        System.out.println("models.Book name: " + title);
+        System.out.println("Book name: " + title);
         for(Author i: authors){
             i.print();
         }
